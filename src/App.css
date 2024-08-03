@@ -1,0 +1,84 @@
+body {
+	background: lightgray;
+	font-family: monospace;
+}
+
+.settings {
+	background: white;
+	padding: 1em;
+	margin: 1em 0;
+}
+
+.settings .dialect_select {
+	background: lightgray;
+	padding: 1em;
+	width: 20%;
+}
+
+.settings label {
+	margin-right: 0.5em;
+}
+
+.settings select {
+	padding: 0.5em;
+}
+
+.registers {
+	display: flex;
+	text-align: center;
+	background: white;
+	padding: 1em;
+	margin: 1em 0;
+}
+
+.registers .register {
+	background: lightgray;
+	padding: 0.5em;
+	width: 5%;
+	margin: 1em;
+}
+
+.register .register_name {
+	font-size: 1.5em;
+	color: gray;
+	margin-bottom: 0.5em;
+}
+
+.register .register_value {
+	font-size: 1.5em;
+}
+
+.editor {
+	background: white;
+	padding: 1em;
+	margin: 1em 0;
+	font-size: 1.5em;
+}
+
+.editor .editor_line {
+	display: flex;
+}
+
+.editor .editor_line_number {
+	text-align: right;
+	width: 2em;
+	margin-right: 2em;
+	color: gray;
+}
+
+.editor .editor_line_content {
+	font-size: inherit;
+	font-family: inherit;
+	flex: auto;
+	display: inline-block;
+	border: 0px;
+	outline: none;
+}
+
+.editor .editor_line.highlit {
+	background: lightgray;
+}
+
+.editor .editor_line.highlit .editor_line_content {
+	background: lightgray;
+}
